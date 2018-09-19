@@ -17,7 +17,6 @@ To change the bitmap the user can paint over, place a .png or .jpeg file into th
 The main screen of the app allows the user to type anything into the textfield at the top of the screen. When the user taps the color change button, a random value is generated, creating a random color. This color is then displayed to the user as an HTML color code and an RGB value.
 
 ![screen1](https://github.com/madison-yancey/CEG4110HW1/blob/master/Resources/MainScreen.PNG)
-
 ![screen2](https://github.com/madison-yancey/CEG4110HW1/blob/master/Resources/MainScreen2.PNG)
 
 At the bottom of the main screen is a button that allows the user to to navigate to the next screen. This screen allows the user to paint over a picture on a canvas. The user can change the drawing color by clicking on the Change Color button and moving the bars, red value bar first, to create a color. The user is also able to undo strokes of color, clear the screen, and save the image. The user can also tap the button at the top of the screen to navigate to the main screen.

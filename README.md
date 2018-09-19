@@ -28,8 +28,8 @@ Madison Yancey
 
 ## Design & Features
 The overall design choice was to create an app that was simple and easy to use. By limiting the background colors of the app, the functionality of allowing the user to create random text colors and paint on a canvas is not diminished. The ActivityMain.kt and activity_main.xml files provide the functionality for the first UI screen, which includes a textfield the user can type in with the device's keboard, a button to randomize a color, and another button to change screens. The Activity2Main.kt and activity_main2.xml files provide the funcitonality for the second UI screen, which has a button to undo and clear any drawing lines over the bitmap, a textfield to type in an HTML code and change the drawing color, a canvas to draw on, and a button that brings up a dialog window to select the color choice.
-![solarized palettes](https://github.com/altercation/solarized/raw/master/img/solarized-165.png)
+![canvas](https://github.com/altercation/solarized/raw/master/img/solarized-165.png)
 
-This app features a canvas painting library, called FingerPaintView (https://github.com/PicnicSupermarket/FingerPaintView). The library was implemented in the second UI screen. This provided the drawing canvas as well as the undo and clear features. 
+This app features a canvas painting library, called FingerPaintView (https://github.com/madison-yancey/CEG4110HW1/blob/master/Resources/BlankCanvas.PNG). The library was implemented in the second UI screen. This provided the drawing canvas as well as the undo and clear features. 
 
 Another library, called Android-Material-Color-Picker-Dialog, is implemented in the app to allow the user to choose any color (https://github.com/Pes8/android-material-color-picker-dialog). The library features a pop-up dialog window where three bars allows to user to create a color with RGB values.
